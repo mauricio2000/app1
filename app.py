@@ -22,10 +22,10 @@ with col1:
 
 with col2:
   st.subheader("Esta es la solumna número 2")
-  modo = st.radio("Cual modalidad es su intefaz?",('visual','audio','tactil'))
-  if modo == 'visual':
-    st.write("es visual")
-  elif modo == 'audio':
-    st.write("es audio")
-  elif modo == 'tactil':
-    st.write("es tactil")
+  modo = st.radio("¿Que prefieres?",('Hamburguesa','Changua','Pizza'))
+  if modo == 'Hamburguesa':
+    st.write("Excleente esa es mi favorita, voy a pedir un par de domicilio")
+  elif modo == 'Changua':
+    st.write("Ahí esta la puerta")
+  elif modo == 'Pizza':
+    st.write("Si si bastante bien, ven vamos por una Pizza")

@@ -22,7 +22,7 @@ with col1:
 
 with col2:
   st.subheader("Esta es la solumna número 2")
-  modo = st.radio("Cual modalidad es su intefaz?,('visual','audio','tactil'))
+  modo = st.radio("Cual modalidad es su intefaz?",('visual','audio','tactil'))
   if modo == 'visual':
     st.write("es visual")
   elif modo == 'audio':

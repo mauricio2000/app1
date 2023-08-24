@@ -34,3 +34,20 @@ if st.button("Dale aqui"):
   st.write("Eso es, muy bien")
 else:
   st.write("Dale pues pai")
+
+
+st.subheader("Selectbox")
+
+inmod= st.selectbox("Selecciona la modalidad",("Audio","Visual","Haptico"))
+
+if inmod == "Audio":
+  set_mod = "Repoducir audio"
+elif inmod == "Visual":
+  set_mod = "Repoducir video"
+elif inmod == "Haptico":
+  set_mod = "Activar vibración"
+
+st.write(set_mod)
+
+
+

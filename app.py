@@ -29,3 +29,8 @@ with col2:
     st.write("Ahí esta la puerta")
   elif modo == 'Pizza':
     st.write("Si si bastante bien, ven vamos por una Pizza")
+
+if st.button("Dale aqui")
+  st.write("Eso es, muy bien")
+else:
+  st.write("Dale pues pai")

@@ -50,4 +50,6 @@ elif inmod == "Haptico":
 st.write(set_mod)
 
 
-
+with st.sidebar:
+  st.subheader("Configura la modalidad")
+  modRadio = st.radio("Escoge la modalidad",("Visual","Audio","Haptica"))

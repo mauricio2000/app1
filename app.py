@@ -24,7 +24,7 @@ with col2:
   st.subheader("Esta es la solumna número 2")
   modo = st.radio("¿Que prefieres?",('Hamburguesa','Changua','Pizza'))
   if modo == 'Hamburguesa':
-    st.write("Excleente esa es mi favorita, voy a pedir un par de domicilio")
+    st.write("Excelente esa es mi favorita, voy a pedir un par de domicilio")
   elif modo == 'Changua':
     st.write("Ahí esta la puerta")
   elif modo == 'Pizza':
